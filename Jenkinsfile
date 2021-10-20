@@ -1,7 +1,7 @@
 pipeline {
     agent none
       stages {
-          stage('BrainTumorPredictionDeployment'){
+          stage('PnemoniaDetectionMlops'){
               agent {
                 label 'kubernetes_master'
             }
